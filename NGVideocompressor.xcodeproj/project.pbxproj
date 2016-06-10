@@ -16,6 +16,7 @@
 		460767101D09451500EB27AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4607670E1D09451500EB27AC /* LaunchScreen.storyboard */; };
 		4607671B1D09653B00EB27AC /* PBJFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 460767181D09653B00EB27AC /* PBJFocusView.m */; };
 		4607671C1D09653B00EB27AC /* PBJStrobeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4607671A1D09653B00EB27AC /* PBJStrobeView.m */; };
+		46F7A2561D0ADC9F00EFB2A1 /* VisionCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F7A2551D0ADC9F00EFB2A1 /* VisionCameraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		460767181D09653B00EB27AC /* PBJFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJFocusView.m; sourceTree = "<group>"; };
 		460767191D09653B00EB27AC /* PBJStrobeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJStrobeView.h; sourceTree = "<group>"; };
 		4607671A1D09653B00EB27AC /* PBJStrobeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJStrobeView.m; sourceTree = "<group>"; };
+		46F7A2541D0ADC9F00EFB2A1 /* VisionCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisionCameraViewController.h; sourceTree = "<group>"; };
+		46F7A2551D0ADC9F00EFB2A1 /* VisionCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisionCameraViewController.m; sourceTree = "<group>"; };
 		716A28AE9F1F759BB0B45362 /* Pods-NGVideocompressor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGVideocompressor.release.xcconfig"; path = "Pods/Target Support Files/Pods-NGVideocompressor/Pods-NGVideocompressor.release.xcconfig"; sourceTree = "<group>"; };
 		EF9D9515B8658C6A6156C92C /* Pods-NGVideocompressor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGVideocompressor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NGVideocompressor/Pods-NGVideocompressor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +87,8 @@
 				4607670E1D09451500EB27AC /* LaunchScreen.storyboard */,
 				460767111D09451500EB27AC /* Info.plist */,
 				460767001D09451500EB27AC /* Supporting Files */,
+				46F7A2541D0ADC9F00EFB2A1 /* VisionCameraViewController.h */,
+				46F7A2551D0ADC9F00EFB2A1 /* VisionCameraViewController.m */,
 			);
 			path = NGVideocompressor;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 				460767081D09451500EB27AC /* ViewController.m in Sources */,
 				460767051D09451500EB27AC /* AppDelegate.m in Sources */,
 				460767021D09451500EB27AC /* main.m in Sources */,
+				46F7A2561D0ADC9F00EFB2A1 /* VisionCameraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

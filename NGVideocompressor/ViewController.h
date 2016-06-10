@@ -13,16 +13,11 @@
 @interface ViewController : UIViewController
 {
 
-    GPUImageMovie *_movieFile;
-    GPUImageOutput<GPUImageInput> *_sketchFilter;
-    GPUImageMovieWriter *_movieWriter;
 
+    NSUInteger tag;
 }
 @property (strong , nonatomic)UIView * previewView;
-@property (nonatomic,retain)    GPUImageMovie *movieFile;
-@property (nonatomic,retain)    GPUImageOutput<GPUImageInput> *sketchFilter;
-@property (nonatomic,retain)    GPUImageMovieWriter *movieWriter;
-@property (nonatomic,retain)    GPUImagePixellateFilter *filter;
-@property (assign) CGFloat maxDuration;
+
+
 @end
 
