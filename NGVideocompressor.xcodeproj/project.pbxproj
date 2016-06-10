@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D96D68601A456B0DFD900BE /* libPods-NGVideocompressor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC255E3124DBD4F99B3CFD9 /* libPods-NGVideocompressor.a */; };
+		460767021D09451500EB27AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 460767011D09451500EB27AC /* main.m */; };
+		460767051D09451500EB27AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 460767041D09451500EB27AC /* AppDelegate.m */; };
+		460767081D09451500EB27AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 460767071D09451500EB27AC /* ViewController.m */; };
+		4607670B1D09451500EB27AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460767091D09451500EB27AC /* Main.storyboard */; };
+		4607670D1D09451500EB27AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4607670C1D09451500EB27AC /* Assets.xcassets */; };
+		460767101D09451500EB27AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4607670E1D09451500EB27AC /* LaunchScreen.storyboard */; };
+		4607671B1D09653B00EB27AC /* PBJFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 460767181D09653B00EB27AC /* PBJFocusView.m */; };
+		4607671C1D09653B00EB27AC /* PBJStrobeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4607671A1D09653B00EB27AC /* PBJStrobeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AC255E3124DBD4F99B3CFD9 /* libPods-NGVideocompressor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NGVideocompressor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		460766FD1D09451500EB27AC /* NGVideocompressor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGVideocompressor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		460767011D09451500EB27AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		460767031D09451500EB27AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		460767041D09451500EB27AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		460767061D09451500EB27AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		460767071D09451500EB27AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4607670A1D09451500EB27AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4607670C1D09451500EB27AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4607670F1D09451500EB27AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		460767111D09451500EB27AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460767171D09653B00EB27AC /* PBJFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJFocusView.h; sourceTree = "<group>"; };
+		460767181D09653B00EB27AC /* PBJFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJFocusView.m; sourceTree = "<group>"; };
+		460767191D09653B00EB27AC /* PBJStrobeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJStrobeView.h; sourceTree = "<group>"; };
+		4607671A1D09653B00EB27AC /* PBJStrobeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJStrobeView.m; sourceTree = "<group>"; };
+		716A28AE9F1F759BB0B45362 /* Pods-NGVideocompressor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGVideocompressor.release.xcconfig"; path = "Pods/Target Support Files/Pods-NGVideocompressor/Pods-NGVideocompressor.release.xcconfig"; sourceTree = "<group>"; };
+		EF9D9515B8658C6A6156C92C /* Pods-NGVideocompressor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGVideocompressor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NGVideocompressor/Pods-NGVideocompressor.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		460766FA1D09451500EB27AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D96D68601A456B0DFD900BE /* libPods-NGVideocompressor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460766F41D09451500EB27AC = {
+			isa = PBXGroup;
+			children = (
+				460766FF1D09451500EB27AC /* NGVideocompressor */,
+				460766FE1D09451500EB27AC /* Products */,
+				FEA04CDD3BF0512CB982C4E8 /* Pods */,
+				781547A14031C73A33FF4569 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		460766FE1D09451500EB27AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460766FD1D09451500EB27AC /* NGVideocompressor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460766FF1D09451500EB27AC /* NGVideocompressor */ = {
+			isa = PBXGroup;
+			children = (
+				460767171D09653B00EB27AC /* PBJFocusView.h */,
+				460767181D09653B00EB27AC /* PBJFocusView.m */,
+				460767191D09653B00EB27AC /* PBJStrobeView.h */,
+				4607671A1D09653B00EB27AC /* PBJStrobeView.m */,
+				460767031D09451500EB27AC /* AppDelegate.h */,
+				460767041D09451500EB27AC /* AppDelegate.m */,
+				460767061D09451500EB27AC /* ViewController.h */,
+				460767071D09451500EB27AC /* ViewController.m */,
+				460767091D09451500EB27AC /* Main.storyboard */,
+				4607670C1D09451500EB27AC /* Assets.xcassets */,
+				4607670E1D09451500EB27AC /* LaunchScreen.storyboard */,
+				460767111D09451500EB27AC /* Info.plist */,
+				460767001D09451500EB27AC /* Supporting Files */,
+			);
+			path = NGVideocompressor;
+			sourceTree = "<group>";
+		};
+		460767001D09451500EB27AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				460767011D09451500EB27AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		781547A14031C73A33FF4569 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AC255E3124DBD4F99B3CFD9 /* libPods-NGVideocompressor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA04CDD3BF0512CB982C4E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF9D9515B8658C6A6156C92C /* Pods-NGVideocompressor.debug.xcconfig */,
+				716A28AE9F1F759BB0B45362 /* Pods-NGVideocompressor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		460766FC1D09451500EB27AC /* NGVideocompressor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460767141D09451500EB27AC /* Build configuration list for PBXNativeTarget "NGVideocompressor" */;
+			buildPhases = (
+				6625E8E5E39AC61422549601 /* Check Pods Manifest.lock */,
+				460766F91D09451500EB27AC /* Sources */,
+				460766FA1D09451500EB27AC /* Frameworks */,
+				460766FB1D09451500EB27AC /* Resources */,
+				4DBD104D332036C9C489EA43 /* Embed Pods Frameworks */,
+				6E3C418A0CF5920F2FD81820 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NGVideocompressor;
+			productName = NGVideocompressor;
+			productReference = 460766FD1D09451500EB27AC /* NGVideocompressor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		460766F51D09451500EB27AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nitin Gohel";
+				TargetAttributes = {
+					460766FC1D09451500EB27AC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 460766F81D09451500EB27AC /* Build configuration list for PBXProject "NGVideocompressor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 460766F41D09451500EB27AC;
+			productRefGroup = 460766FE1D09451500EB27AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				460766FC1D09451500EB27AC /* NGVideocompressor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		460766FB1D09451500EB27AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460767101D09451500EB27AC /* LaunchScreen.storyboard in Resources */,
+				4607670D1D09451500EB27AC /* Assets.xcassets in Resources */,
+				4607670B1D09451500EB27AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DBD104D332036C9C489EA43 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NGVideocompressor/Pods-NGVideocompressor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6625E8E5E39AC61422549601 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E3C418A0CF5920F2FD81820 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NGVideocompressor/Pods-NGVideocompressor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460766F91D09451500EB27AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4607671C1D09653B00EB27AC /* PBJStrobeView.m in Sources */,
+				4607671B1D09653B00EB27AC /* PBJFocusView.m in Sources */,
+				460767081D09451500EB27AC /* ViewController.m in Sources */,
+				460767051D09451500EB27AC /* AppDelegate.m in Sources */,
+				460767021D09451500EB27AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		460767091D09451500EB27AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4607670A1D09451500EB27AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4607670E1D09451500EB27AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4607670F1D09451500EB27AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		460767121D09451500EB27AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		460767131D09451500EB27AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		460767151D09451500EB27AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9D9515B8658C6A6156C92C /* Pods-NGVideocompressor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NGVideocompressor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olbuz.NGVideocompressor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		460767161D09451500EB27AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 716A28AE9F1F759BB0B45362 /* Pods-NGVideocompressor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NGVideocompressor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olbuz.NGVideocompressor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		460766F81D09451500EB27AC /* Build configuration list for PBXProject "NGVideocompressor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460767121D09451500EB27AC /* Debug */,
+				460767131D09451500EB27AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460767141D09451500EB27AC /* Build configuration list for PBXNativeTarget "NGVideocompressor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460767151D09451500EB27AC /* Debug */,
+				460767161D09451500EB27AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 460766F51D09451500EB27AC /* Project object */;
+}
